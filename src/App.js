@@ -1,6 +1,10 @@
 
 import './App.css';
 import w1 from './asserts/w1.jpg'
+import d from './asserts/daya.png'
+import Details from './Details';
+import w2 from './asserts/w2.jpg'
+
 function App() {
   return (
     <div>
@@ -10,16 +14,25 @@ function App() {
         </div>
       </div>
       <br />
-      <div style={{ backgroundColor: 'white' }}>
-
-        <img src={w1} className='rounded-circle'  alt='' height='80cm' width='80cm' />
-        <b>★彡[ᴅᴀʏᴀᴋᴀʀ ᴡᴇɴᴅꜱ ᴍᴀᴅʜᴜʀɪ]彡★</b>
-        <img src={w1} className='rounded-circle' alt='' height='80cm' width='80cm' />
-
-      </div>
+      <div class="card mb-3">
+      <img src={w2} class="card-img-top" alt="..." height='650cm'/>
+       </div> 
+     
+      <div className='card' >
       <br/> 
-      <div className='card'>
-           kk
+        <div>
+         <b>Hi</b>,
+        </div>
+         <div>
+          Please save date and come to my wedding 
+         </div>
+         <div>
+          Place : Bodagudipadu
+         </div>
+      </div>
+      <br/>
+      <div>
+        <Details/>
       </div>
     </div>
   );
