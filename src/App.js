@@ -12,12 +12,12 @@ function App() {
       <br />
       <div style={{ backgroundColor: 'white' }}>
 
-        <img src={w1} className='rounded-circle' height='80cm' width='80cm' />
+        <img src={w1} className='rounded-circle'  alt='' height='80cm' width='80cm' />
         <b>★彡[ᴅᴀʏᴀᴋᴀʀ ᴡᴇɴᴅꜱ ᴍᴀᴅʜᴜʀɪ]彡★</b>
-        <img src={w1} className='rounded-circle' height='80cm' width='80cm' />
+        <img src={w1} className='rounded-circle' alt='' height='80cm' width='80cm' />
 
       </div>
-      <br/>
+      <br/> 
       <div className='card'>
            kk
       </div>
